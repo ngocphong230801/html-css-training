@@ -1,0 +1,12 @@
+.color-name{
+    color: aqua;
+}
+.hex{
+    color: #c76b6b;
+}
+.rgb{
+    color: rgb(219, 156, 156);
+}
+.hsl{
+    color: hsl(120, 100%, 40%);
+}
