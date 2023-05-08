@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #e7e8e9;
+    text-align: center;
+}
+nav{
+    background-color: #ffd400;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px  0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav ul li,a{
+    color: black;
+    font-size: 12px;
+}
+nav ul li:nth-child(2){
+    background: #ffbb06;
+}
+nav ul li:nth-child(2) i{
+    font-size: 15px;
+    margin-left: 6px;
+}
+nav ul li:nth-child(3) {
+    position: relative;
+}
+nav ul li:nth-child(3) input{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 6px;
+    outline: none;
+}
+nav ul li:nth-child(3) i{
+    position: absolute;
+    font-size: 15px;
+    right: 5px;
+    color: black;
+    line-height: 30px;
+
+}
+nav ul li:nth-child(4) button{
+    height: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background: #ffbb06;
+    border: none;
+}
+.menubar{
+    background-color: #ffd400;
+    padding: 12px;
+}
+.menubar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menubar ul li a{
+    color: black;
+    font-size: 15px;
+    padding: 6px;
+}
