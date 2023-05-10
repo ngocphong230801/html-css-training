@@ -14,37 +14,37 @@ nav{
     background-color: #ffd400;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
     padding: 5px  0;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-nav ul li,a{
+nav ul li,a {
     color: black;
     font-size: 12px;
 }
 
-nav ul li:nth-child(2){
+nav ul li:nth-child(2) {
     background: #ffbb06;
 }
 
-nav ul li:nth-child(2) i{
+nav ul li:nth-child(2) i {
     font-size: 15px;
     margin-left: 6px;
 }
@@ -53,7 +53,7 @@ nav ul li:nth-child(3) {
     position: relative;
 }
 
-nav ul li:nth-child(3) input{
+nav ul li:nth-child(3) input {
     height: 30px;
     width: 100%;
     border-radius: 5px;
@@ -62,7 +62,7 @@ nav ul li:nth-child(3) input{
     outline: none;
 }
 
-nav ul li:nth-child(3) i{
+nav ul li:nth-child(3) i {
     position: absolute;
     font-size: 15px;
     right: 5px;
@@ -71,7 +71,7 @@ nav ul li:nth-child(3) i{
 
 }
 
-nav ul li:nth-child(4) button{
+nav ul li:nth-child(4) button {
     height: 30px;
     padding: 0 8px;
     cursor: pointer;
@@ -79,17 +79,17 @@ nav ul li:nth-child(4) button{
     border: none;
 }
 
-.menubar{
+.menubar {
     background-color: #ffd400;
     padding: 12px;
 }
 
-.menubar ul{
+.menubar ul {
     display: flex;
     justify-content: space-between;
 }
 
-.menubar ul li a{
+.menubar ul li a {
     color: black;
     font-size: 15px;
     padding: 6px;
