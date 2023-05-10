@@ -1,1 +1,1 @@
-# HERE ARE SOME EXAMPLES OF HTML/CSS
+# This is Practice of HTML/CSS
