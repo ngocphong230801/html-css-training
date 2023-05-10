@@ -106,7 +106,6 @@
     color:#626a67;
 }
 
-
 #list-products {
     display: flex;
     list-style: none;
@@ -176,17 +175,15 @@
 
 }
 
-
 #footer .box .quick-menu .item{
     margin-bottom:12px;
 
 }
+
 #footer .box .quick-menu ,.item a{
     color:#fff;
     text-decoration: none;
 }
-
-
 
 #footer .box form input {
     width: 294px;

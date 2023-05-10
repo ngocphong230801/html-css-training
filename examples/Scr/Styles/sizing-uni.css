@@ -5,11 +5,10 @@
     font-size: 16px;
 }
 .container p{
-    /* font-size: 1.5em; */
     font-size: 1.5rem;
     line-height: 1.5;
 }
-.hop{
+.box{
     width: 10vw;
     height: 15%;
     background-color: aquamarine;

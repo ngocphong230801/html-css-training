@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 .container{
     width: 100vw;
     height: 800px;
@@ -13,24 +14,26 @@
     flex-flow: row wrap;
     justify-content: flex-start;
 }
+
 p {
     color: aliceblue;
 }
+
 .box1{
     height: 200px;
     background-color: rgb(218, 7, 7);
     padding: 10px;
     flex-grow: 1;
     order: 3;
-
 }
+
 .box2{
     height: 200px;
     background-color: rgb(5, 150, 5);
     padding: 10px;
-    flex-grow: 1;
-    
+    flex-grow: 1; 
 }
+
 .box3{
     height: 200px;
     background-color: rgb(55, 55, 204);
