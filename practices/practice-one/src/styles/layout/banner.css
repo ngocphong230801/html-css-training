@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+}
+.banenr .banner-content {
+    position: relative;
+}
+
+.banner .banner-content h1 {
+    line-height: var(--lh-xxxx);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-medium);
+    width: 600px;
+    padding-top: 160px;
+}
+
+.banner .banner-content p {
+    line-height: var(--lh-xxx);
+    font-size: var(--fs-xxxx);
+    font-weight: var(--fw-regular);
+    width: 600px;
+}
+
+.banner .banner-img{
+    position: absolute;
+    left: 681px;
+    top: 295px;
+}
