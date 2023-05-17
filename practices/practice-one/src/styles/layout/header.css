@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo img{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+}
+
+.logo a {
+    position: absolute;
+    font-size: var(--fs-xxxx);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-xx);
+    color: var(--blue);
+    display:inline;
+    width: 100px;
+    left: 60px;
+    top: 10px;
+}
+.menu a {
+    color: var(--black);
+    font-size: var(--fs-x);
+    font-weight: var(--fw-semibold);
+    line-height: var(--lh-x);
+    padding-right: 35px;
+    height: 50px;
+}
