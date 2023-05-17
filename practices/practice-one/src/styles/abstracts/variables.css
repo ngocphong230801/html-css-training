@@ -1,0 +1,40 @@
+:root {
+    /* Color */
+    --white: #ffffff;
+    --white-100: #f2f2f2;
+    --white-200: #f3f7ff;
+    
+    --blue: #1968fc;
+    --blue-100: #1967fa;
+    
+    --black: #000000;
+    --black-100: #111111;
+    --black-200: #11223f;
+
+    /* Background:  */
+    --bg-primary: transparent;
+    --bg-secondary: #1968fc;
+
+    /* Heading font sizes*/
+    --fs-h1: 40px;
+    --fs-h2: 30px;
+    --fs-h3: 18px;
+    
+    /* Text font size*/
+    --fs-xxxx: 20px;
+    --fs-xxx: 18px;
+    --fs-xx: 16px;
+    --fs-x: 14px;
+
+   /* Line heights */
+    --lh-xxxx: 60px;
+    --lh-xxx: 40px;
+    --lh-xx: 30px;
+    --lh-x: 20px;
+
+    /* Font weight */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+}
