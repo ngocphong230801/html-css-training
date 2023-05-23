@@ -8,7 +8,7 @@ Introduce dashboard app landing page
 ## Design on figma: ##
 [Figma] (https://www.figma.com/file/gGI7uwzRbVEZghXog1n5aY/website---design-for-web-design?type=design&node-id=0-2&t=m5urIUyDwUI61mht-0)
 ## Information: ##
-- Time line: 16/05/2023 -> 22/05/2023
+- Time line: 6 days (From Tuesday, May 16,2023 to Friday, May 26, 2023 )
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
 ## Folder structure ##
