@@ -1,0 +1,7 @@
+.heading-title {
+    color: #11223f;
+    font-size: var(--fs-h2);
+    line-height: var(--lh-xxxx);
+    font-weight: var(--fw-regular);
+    display: inline block;
+}

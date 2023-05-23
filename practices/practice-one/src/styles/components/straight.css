@@ -1,0 +1,15 @@
+.straight{
+    background-color: var(--blue);
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    left: 120px;
+}
+
+.straight-2 {
+    background-color: var(--white);
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    left: 120px;
+}
