@@ -1,15 +1,11 @@
-.straight{
-    background-color: var(--blue);
-    width: 80px;
-    height: 2px;
-    position: absolute;
-    left: 120px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400&display=swap');
 
-.straight-2 {
-    background-color: var(--white);
-    width: 80px;
-    height: 2px;
-    position: absolute;
-    left: 120px;
+.container {
+    width: 1110px;
+    height: max-content;
+    margin: auto;
+    padding: 30px 160px;
+    font-family: 'Mulish', sans-serif;
+    background-color: #f2f2f2;
+    opacity: 1;
 }

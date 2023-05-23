@@ -1,0 +1,15 @@
+.heading {
+    color: #11223f;
+    font-size: var(--fs-h2);
+    line-height: var(--lh-xxxx);
+    font-weight: var(--fw-regular);
+    display: inline block;
+
+}
+
+.heading .heading-title {
+    color: var(--blue-100);
+    line-height: var(--lh-xxx);
+    font-weight: var(--fw-semibold);
+    font-size: var(--fs-xxx);
+}
