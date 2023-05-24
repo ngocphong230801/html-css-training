@@ -1,0 +1,14 @@
+.heading {
+    color: var(--color-heading);
+    font-size: var(--font-size-3x);
+    line-height: var(--line-height-lg);
+    display: inline block;
+
+}
+
+.heading .heading-title {
+    color: var(--color-heading-title);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-sm);
+}
