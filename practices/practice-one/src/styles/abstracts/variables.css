@@ -3,9 +3,11 @@
     --primary-color: #1968fc;
     --secondary-color: #ffffff;
 
-    /* Text-color */
+    /* Text-color-btn */
     --color-text-btn-primary: var(--primary-color);
     --color-text-btn-secondary: var(--secondary-color);
+     /* Text-color */
+     
     --color-text-default: #000000;
     --color-text-primary: #11223f;
     --color-text-secondary: #111111;
