@@ -1,19 +1,19 @@
 .btn {
-    font-size: var(--fs-x);
-    line-height: var(--lh-x);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-base);
 }
 .btn-default {
-    border: 1px solid var(--background-btn-base);
+    border: 1px solid var(--blue);
     box-shadow: 0px 10px 40px;
     color: var(--white);
     background-color: var(--blue);
     width: 180px;
     height: 50px;
-    font-weight: var(--fw-medium);
+    font-weight: var(--font-weight-500);
 }
 
 .btn-primary {
-    border: 1px solid var(--background-btn-base);
+    border: 1px solid var(--white);
     box-shadow: 0px 10px 40px;
     color: var(--white);
     background-color: var(--blue);
@@ -22,7 +22,7 @@
 }
 
 .btn-secondary {
-    border: 1px solid var(--white--background-btn-primary);
+    border: 1px solid var(--white);
     box-shadow: 4px 4px 20px;
     color: var(--blue);
     background-color: var(--white);
