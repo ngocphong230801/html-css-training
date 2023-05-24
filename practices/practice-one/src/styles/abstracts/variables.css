@@ -2,12 +2,15 @@
     /* Theme */
     --primary-color: #1968fc;
     --secondary-color: #ffffff;
-    /* Color */
+
+    /* Text-color */
     --color-text-btn-primary: var(--primary-color);
     --color-text-btn-secondary: var(--secondary-color);
     --color-text-default: #000000;
     --color-text-primary: #11223f;
     --color-text-secondary: #111111;
+    
+    /* Heading-color*/
     --color-heading: #11223f;
     --color-heading-title: var(--primary-color);
     
