@@ -5,7 +5,7 @@
 .btn-default {
     border: 1px solid var(--blue);
     box-shadow: 0px 10px 40px;
-    color: var(--white);
+    color: var(--color-text-btn-base);
     background-color: var(--blue);
     width: 180px;
     height: 50px;
@@ -15,7 +15,7 @@
 .btn-primary {
     border: 1px solid var(--white);
     box-shadow: 0px 10px 40px;
-    color: var(--white);
+    color: var(--color-text-btn-base);
     background-color: var(--blue);
     width: 300px;
     height: 50px;
@@ -24,7 +24,7 @@
 .btn-secondary {
     border: 1px solid var(--white);
     box-shadow: 4px 4px 20px;
-    color: var(--blue);
+    color: var(--color-text-btn-primary);
     background-color: var(--white);
     font-weight: var(--font-weight-semibold);
     width: 320px;
