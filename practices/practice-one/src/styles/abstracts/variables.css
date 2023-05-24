@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400&display=swap');
+:root {
+    /* Font */
+    --font-primary: 'Mulish', sans-serif;
+    
+    /* Theme */
+    --primary-color: #1968fc;
+    --secondary-color: #fff;
+
+    /* Text-color-btn */
+    --color-text-btn-primary: var(--primary-color);
+    --color-text-btn-secondary: var(--secondary-color);
+
+     /* Text-color */
+    --color-text-default: #000;
+    --color-text-primary: #11223f;
+    --color-text-secondary: #111;
+    
+    /* Heading-color*/
+    --color-heading: #11223f;
+    --color-heading-title: var(--primary-color);
+    
+    /* Background:  */
+    --background-default: #f2f2f2;
+    --background-primary: var(--primary-color);
+    --background-secondary: var(--secondary-color);
+
+    /* Heading font sizes*/
+    --font-size-heading-lg: 40px;
+    --font-size-heading-md: 30px;
+    --font-size-heading-sm: 18px;
+    
+    /* Text font size*/
+    --font-size-text-xl: 20px;
+    --font-size-text-lg: 18px;
+    --font-size-text-md: 16px;
+    --font-size-text-sm: 14px;
+
+   /* Line heights */
+    --line-height-lg: 60px;
+    --line-height-md: 40px;
+    --line-height-sm: 30px;
+    --line-height-base: 20px;
+
+    /* Font weight */
+    --font-weight-base: 400;
+    --font-weight-light: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+}

@@ -1,0 +1,15 @@
+.straight {
+    background-color: var(--background-secondary);
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    left: 120px;
+}
+
+.straight-primary {
+    background-color: var(--background-primary);
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    left: 120px;
+}
