@@ -6,8 +6,8 @@
     /* Text-color-btn */
     --color-text-btn-primary: var(--primary-color);
     --color-text-btn-secondary: var(--secondary-color);
+
      /* Text-color */
-     
     --color-text-default: #000000;
     --color-text-primary: #11223f;
     --color-text-secondary: #111111;
@@ -39,8 +39,8 @@
     --line-height-base: 20px;
 
     /* Font weight */
-    --font-weight-light: 400;
-    --font-weight-500: 500;
+    --font-weight-base: 400;
+    --font-weight-light: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
 }
