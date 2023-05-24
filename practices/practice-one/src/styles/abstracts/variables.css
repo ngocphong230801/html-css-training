@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400&display=swap');
 :root {
     /* Font */
-    --font-primary:'Mulish', sans-serif;
+    --font-primary: 'Mulish', sans-serif;
+    
     /* Theme */
     --primary-color: #1968fc;
     --secondary-color: #fff;
