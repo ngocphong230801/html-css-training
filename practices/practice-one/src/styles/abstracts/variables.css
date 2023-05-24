@@ -9,9 +9,9 @@
     --color-heading-title: #1968fc;
     
     /* Background:  */
-    --bg-default: #f2f2f2;
-    --bg-primary: #ffffff;
-    --bg-secondary: #1968fc;
+    --background-default: #f2f2f2;
+    --background-primary: #ffffff;
+    --background-secondary: #1968fc;
 
     /* Heading font sizes*/
     --font-size-heading-sm: 40px;
