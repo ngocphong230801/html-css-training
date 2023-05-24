@@ -6,6 +6,5 @@
     margin: auto;
     padding: 30px 160px;
     font-family: 'Mulish', sans-serif;
-    background-color: #f2f2f2;
-    opacity: 1;
+    background-color: var(--background-primary);
 }
