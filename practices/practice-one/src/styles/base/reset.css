@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400&display=swap');
 html {
     line-height: 1.15; 
-    -webkit-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; 
 }
 
 body {
@@ -22,12 +22,12 @@ h1 {
 hr {
   box-sizing: content-box; 
   height: 0; 
-  overflow: visible; /* 2 */
+  overflow: visible; 
 }
 
 pre {
     font-family: monospace, monospace; 
-    font-size: 1em; /* 2 */
+    font-size: 1em; 
 }
 
 a {
@@ -38,8 +38,8 @@ a {
 
 abbr[title] {
     border-bottom: none; 
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
+    text-decoration: underline; 
+    text-decoration: underline dotted; 
 }
 
 b,strong {
@@ -81,7 +81,7 @@ textarea {
   font-family: inherit; 
   font-size: 100%; 
   line-height: 1.15; 
-  margin: 0; /* 2 */
+  margin: 0; 
 }
 
 
@@ -124,10 +124,10 @@ fieldset {
 
 legend {
   box-sizing: border-box; 
-  color: inherit; /* 2 */
+  color: inherit; 
   display: table; 
   max-width: 100%; 
-  padding: 0; /* 3 */
+  padding: 0; 
   white-space: normal; 
 }
 
@@ -142,7 +142,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; 
-  padding: 0; /* 2 */
+  padding: 0; 
 }
 
 [type="number"]::-webkit-inner-spin-button,
@@ -152,7 +152,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; 
-  outline-offset: -2px; /* 2 */
+  outline-offset: -2px; 
 }
 
 [type="search"]::-webkit-search-decoration {
@@ -161,7 +161,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; 
-  font: inherit; /* 2 */
+  font: inherit; 
 }
 
 details {
