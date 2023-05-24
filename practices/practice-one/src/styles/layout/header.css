@@ -16,13 +16,15 @@
 .logo .title-logo {
     position: absolute;
     font-size: var(--font-size-text-xl);
-    font-weight: var(--font-weight-500);
+    font-weight: var(--font-weight-base);
     line-height: var(--line-height-sm);
     color: var(--primary-color);
     display:inline;
-    width: 100px;
-    left: 60px;
+    left: 40px;
     top: 10px;
+    margin: 0;
+    padding: 0 23px;
+    
 }
 
 .menu {
