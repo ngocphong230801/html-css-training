@@ -1,0 +1,62 @@
+.section-feedback {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 208px;
+}
+
+.card {
+    width: 540px;
+    height: 280px;
+    background-color: var(--secondary-color);       
+}
+
+.card .card-user {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card .card-user .user-img {
+    position: absolute;
+    left: 40px;
+    top: 40px;    
+}
+.card .card-user .heading-info {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    font-size: var(--font-size-heading-sm);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-sm);
+}
+
+.card .card-user .info {
+    position: absolute;
+    top: 90px;
+    left: 160px;
+    font-size: var(--font-size-text-sm);
+    line-height: var(--line-height-sm);
+    color: var(--color-heading-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+.card .card-user .quoet {
+    position: absolute;
+    top: 40px;
+    left: 440px;
+}
+
+.card .card-content {
+    position: relative;
+}
+
+.card .card-content .feedback {
+    position: absolute;
+    width: 460px;
+    top: 180px;
+    left: 40px;
+    line-height: var(--line-height-sm);
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-text-md);
+}
