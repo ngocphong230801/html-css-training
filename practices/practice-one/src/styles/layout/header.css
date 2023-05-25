@@ -1,7 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: relative;
 }
 
@@ -29,8 +28,9 @@
 
 .menu {
     display: flex;
-    align-items: center ;
     justify-content: space-between;
+    list-style: none;
+    margin-right: 200px;
 }
 
 .menu .menu-content {
@@ -39,13 +39,15 @@
     font-weight: var(--font-weight-light);
     line-height: var(--line-height-base);
     padding: 16px 17px ;
-    margin: 20px;
+    margin-left: 23px;
 }
 
 .menu .menu-item:nth-child(1) .menu-content {
     color: var(--primary-color);
 }
 
-.menu .btn-default {
+.btn-default {
     text-transform: uppercase;
+    position: absolute;
+    right: 0;
 }
