@@ -1,11 +1,17 @@
-.banner{
+.banner {
     display: flex;
 }
 
-.banner .banner-content .heading {
+.banner .heading::before {
+    content: "";
+    margin-bottom: 150px;
+    display: block;
+}
+
+.banner .heading {
     line-height: var(--line-height-lg);
     font-size: var(--font-size-heading-lg);
-    font-weight: var( --font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
     width: 600px;
 }
 
@@ -13,6 +19,7 @@
     line-height: var(--line-height-md);
     font-size: var(--font-size-text-xl);
     font-weight: var(--font-weight-base);
+    width: 600px;
     
 }
 
@@ -20,9 +27,9 @@
     padding: 15px 67px;
 }
 
-.banner .banner-img{
+.banner .banner-img {
     position: absolute;
     left: 681px;
-    top: 300px;
+    top: 280px;
     margin: 0;
 }
