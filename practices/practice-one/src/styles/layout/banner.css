@@ -1,0 +1,28 @@
+.banner{
+    display: flex;
+}
+
+.banner .banner-content .heading {
+    line-height: var(--line-height-lg);
+    font-size: var(--font-size-heading-lg);
+    font-weight: var( --font-weight-semibold);
+    width: 600px;
+}
+
+.banner .banner-content .headline-text {
+    line-height: var(--line-height-md);
+    font-size: var(--font-size-text-xl);
+    font-weight: var(--font-weight-base);
+    
+}
+
+.banner .banner-content .btn-primary {
+    padding: 15px 67px;
+}
+
+.banner .banner-img{
+    position: absolute;
+    left: 681px;
+    top: 300px;
+    margin: 0;
+}
