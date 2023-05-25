@@ -5,15 +5,15 @@
     position: relative;
 }
 
-.logo .logo-img {
+.brand .brand {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    bottom: 0%;
-    right: 0%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
 }
 
-.logo .title-logo {
+.brand .title-logo {
     position: absolute;
     font-size: var(--font-size-text-xl);
     font-weight: var(--font-weight-base);
@@ -33,15 +33,19 @@
     justify-content: space-between;
 }
 
-.menu .menu-content {
+.menu .menu-item {
     color: var(--color-text-default);
     font-size: var(--font-size-text-sm);
-    font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-light);
     line-height: var(--line-height-base);
     padding: 16px 17px ;
     margin: 20px;
 }
 
-.menu .menu-item-header:nth-child(1) .menu-content {
+.menu .menu-item-header:nth-child(1) .menu-item {
     color: var(--primary-color);
+}
+
+.menu .btn-default {
+    text-transform: uppercase;
 }
