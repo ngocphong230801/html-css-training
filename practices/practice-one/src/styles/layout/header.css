@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.brand .brand-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.brand .title-logo {
+    position: absolute;
+    font-size: var(--font-size-text-xl);
+    font-weight: var(--font-weight-base);
+    line-height: var(--line-height-sm);
+    color: var(--primary-color);
+    display:inline;
+    left: 40px;
+    top: 10px;
+    margin: 0;
+    padding: 0 23px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.menu .menu-content {
+    color: var(--color-text-default);
+    font-size: var(--font-size-text-sm);
+    font-weight: var(--font-weight-light);
+    line-height: var(--line-height-base);
+    padding: 16px 17px ;
+    margin-left: 23px;
+}
+
+.menu .menu-item:nth-child(1) .menu-content {
+    color: var(--primary-color);
+}
+
+.btn-default {
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+}
