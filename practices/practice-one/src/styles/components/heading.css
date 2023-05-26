@@ -6,9 +6,19 @@
 
 }
 
-.heading .heading-title {
-    color: var(--color-heading-title);
-    line-height: var(--line-height-base);
-    font-weight: var(--font-weight-semibold);
-    font-size: var(--font-size-sm);
+.heading-title {
+    color: var(--color-heading);
+    line-height: var(--line-height-lg);
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-heading-md);
+}
+
+.heading-title::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid var(--primary-color);
+    width: 79.66px;
+    margin-top: 10px;
+    position: absolute;
+    left: 120px;
 }
