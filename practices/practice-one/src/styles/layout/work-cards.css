@@ -20,6 +20,7 @@
 .work-cards .card:nth-child(2) {
     margin-top: 40px;
 }
+
 .work-cards .card:nth-child(1)::after {
     content: "";
     position: absolute;
@@ -41,6 +42,7 @@
 .work-cards .card:nth-child(3) {
     margin-top: 80px;
 }
+
 .work-cards .card .card-top {
     display: flex;
     justify-content: space-between;
