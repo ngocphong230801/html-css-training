@@ -11,14 +11,15 @@
     line-height: var(--line-height-lg);
     font-weight: var(--font-weight-base);
     font-size: var(--font-size-heading-md);
+    position: relative;
 }
 
 .heading-title::after {
     content: "";
     display: block;
     border-bottom: 2px solid var(--primary-color);
-    width: 79.66px;
+    width: 80px;
     margin-top: 10px;
     position: absolute;
-    left: 120px;
+    left: -40px;
 }

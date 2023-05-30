@@ -3,9 +3,8 @@
     width: 1440px;
     height: 450px;
     background-color: var(--primary-color);
-    position: absolute;
-    left: 0;
-    right: 0;
+    position: relative;
+    margin-left: -160px;
 }
 
 .heading-white-love {

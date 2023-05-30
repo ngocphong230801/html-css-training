@@ -1,5 +1,6 @@
 .banner {
     display: flex;
+    position: relative;
 }
 
 .banner .heading::before {
@@ -29,7 +30,7 @@
 
 .banner .banner-img {
     position: absolute;
-    left: 681px;
-    top: 280px;
+    left: 500px;
+    top: 200px;
     margin: 0;
 }

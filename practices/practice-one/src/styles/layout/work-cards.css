@@ -1,4 +1,4 @@
-.heading-title {
+.heading-title:nth-child(3) {
     margin-top: 72px;
     margin-bottom: 50px;
 }
