@@ -5,19 +5,19 @@
     margin-top: 208px;
 }
 
-.card {
+.feedback-card {
     width: 540px;
     height: 280px;
     background-color: var(--secondary-color);       
 }
 
-.card .card-user {
+.feedback-card .feedback-card-user {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.card .card-user .user-img {
+.feedback-card .feedback-card-user .user-img {
     position: absolute;
     left: 40px;
     top: 40px;    
@@ -43,17 +43,17 @@
     margin: 0;
 }
 
-.card .card-user .card-icon {
+.feedback-card .feedback-card-user .quoet {
     position: absolute;
     top: 40px;
     left: 440px;
 }
 
-.card .card-content {
+.feedback-card .feedback-card-content {
     position: relative;
 }
 
-.card .card-content .feedback {
+.feedback-card .feedback-card-content .feedback {
     position: absolute;
     width: 460px;
     top: 180px;
