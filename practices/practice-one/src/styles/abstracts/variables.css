@@ -19,7 +19,7 @@
     /* Heading-color*/
     --color-heading: #11223f;
     --color-heading-title: var(--primary-color);
-    --color-heading-sm: #1967FA;
+    --color-heading-card-title: #1967fa;
     /* Background:  */
     --background-default: #f2f2f2;
     --background-primary: var(--primary-color);
