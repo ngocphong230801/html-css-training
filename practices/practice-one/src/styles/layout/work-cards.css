@@ -13,9 +13,10 @@
 .work-cards .card {
     width: 318px;
     height: 220px;
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     position: relative;
 }
+
 .work-cards .card:nth-child(2) {
     margin-top: 40px;
 }
