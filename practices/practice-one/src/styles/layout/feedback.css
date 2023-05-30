@@ -22,7 +22,7 @@
     left: 40px;
     top: 40px;    
 }
-.card .card-user .heading-info {
+.card .card-user .heading-infor {
     position: absolute;
     top: 50px;
     left: 160px;
@@ -31,7 +31,7 @@
     line-height: var(--line-height-sm);
 }
 
-.card .card-user .info {
+.card .card-user .infor {
     position: absolute;
     top: 90px;
     left: 160px;
