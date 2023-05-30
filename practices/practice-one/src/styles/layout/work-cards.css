@@ -1,4 +1,4 @@
-.heading-title:nth-child(3) {
+.heading-title {
     margin-top: 72px;
     margin-bottom: 50px;
 }
@@ -82,7 +82,7 @@
     margin: 0;
 }
 
-.work-cards .card .card-bottom .card-decoration {
+.card .card-bottom .card-decoration {
     position: absolute;
     top: 200px;
     left: 298px ;

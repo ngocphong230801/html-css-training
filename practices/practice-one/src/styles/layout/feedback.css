@@ -1,20 +1,14 @@
-/* .section-feedback {
+.section-feedback {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 208px;
-} */
-
-.section-feedback {
-    margin-top: 200px;
-   display: flex;
-   justify-content: space-between;
 }
 
 .card {
     width: 540px;
     height: 280px;
-    background-color: var(--secondary-color);      
+    background-color: var(--secondary-color);       
 }
 
 .card .card-user {
@@ -39,12 +33,13 @@
 
 .card .card-user .profile-title {
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 160px;
     font-size: var(--font-size-text-sm);
     line-height: var(--line-height-sm);
+    color: var(--color-heading-title);
     font-weight: var(--font-weight-semibold);
-    color: var(--color-heading-card-title);
+    margin: 0;
 }
 
 .card .card-user .quoet {
