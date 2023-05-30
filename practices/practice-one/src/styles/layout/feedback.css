@@ -1,14 +1,20 @@
-.section-feedback {
+/* .section-feedback {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 208px;
+} */
+
+.section-feedback {
+    margin-top: 200px;
+   display: flex;
+   justify-content: space-between;
 }
 
 .card {
     width: 540px;
     height: 280px;
-    background-color: var(--secondary-color);       
+    background-color: var(--secondary-color);      
 }
 
 .card .card-user {
