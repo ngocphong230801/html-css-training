@@ -1,0 +1,26 @@
+.about-us {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 540px 540px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.about-us .about-us-card {
+    display: flex;
+    background-color: var(--secondary-color);
+    height: 80px;
+    width: 540px;
+    position: relative;
+}
+
+.about-us .about-us-card .about-us-content {
+    font-size: var(--font-size-heading-sm);
+    font-weight: var(--font-weight-semibold);
+    position: absolute;
+    left: 100px;
+    right: 20px;
+    top: 20px;
+    line-height: var(--line-height-md);
+    margin: 0;
+}
