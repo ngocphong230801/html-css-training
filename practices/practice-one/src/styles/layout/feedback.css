@@ -22,7 +22,8 @@
     left: 40px;
     top: 40px;    
 }
-.feedback-card .feedback-card-user .heading-infor {
+
+.card .card-user .profile-name {
     position: absolute;
     top: 50px;
     left: 160px;
@@ -31,14 +32,15 @@
     line-height: var(--line-height-sm);
 }
 
-.feedback-card .feedback-card-user .infor {
+.card .card-user .profile-title {
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 160px;
     font-size: var(--font-size-text-sm);
     line-height: var(--line-height-sm);
-    color: var(--color-heading-sm);
+    color: var(--color-heading-title);
     font-weight: var(--font-weight-semibold);
+    margin: 0;
 }
 
 .feedback-card .feedback-card-user .quoet {
