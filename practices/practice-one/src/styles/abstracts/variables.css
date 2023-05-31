@@ -24,6 +24,7 @@
     --background-default: #f2f2f2;
     --background-primary: var(--primary-color);
     --background-secondary: var(--secondary-color);
+    --background-tertiary: #f3f7ff;
 
     /* Heading font sizes*/
     --font-size-heading-lg: 40px;

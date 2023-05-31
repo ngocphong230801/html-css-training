@@ -23,7 +23,7 @@
     top: 40px;    
 }
 
-.card .card-user .profile-name {
+.feedback-card .feedback-card-user .profile-name {
     position: absolute;
     top: 50px;
     left: 160px;
@@ -32,7 +32,7 @@
     line-height: var(--line-height-sm);
 }
 
-.card .card-user .profile-title {
+.feedback-card .feedback-card-user .profile-title {
     position: absolute;
     top: 80px;
     left: 160px;
@@ -43,7 +43,7 @@
     margin: 0;
 }
 
-.feedback-card .feedback-card-user .quoet {
+.feedback-card .feedback-card-user .card-icon {
     position: absolute;
     top: 40px;
     left: 440px;
