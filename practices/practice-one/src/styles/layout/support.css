@@ -7,7 +7,7 @@
     margin-left: -160px;
 }
 
-.support .heading-support {
+.support .support-heading {
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-lg);
     font-size: var(--font-size-heading-md);
@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 
-.support .heading-support::after {
+.support .support-heading::after {
     content: "";
     display: block;
     border-bottom: 2px solid var(--secondary-color);
