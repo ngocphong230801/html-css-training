@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .story {
     position: relative;
 }
@@ -22,7 +23,7 @@
     width: 420px;
     display: block;
 }
-    
+
 .story .story-content {
     position: absolute;
     left: 70px;
