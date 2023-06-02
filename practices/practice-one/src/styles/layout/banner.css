@@ -26,6 +26,8 @@
 
 .banner .banner-content .btn-primary {
     padding: 15px 67px;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-semibold);
 }
 
 .banner .banner-img {
