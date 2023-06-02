@@ -6,10 +6,12 @@
 .story {
     position: relative;
 }
+
 .story .introduce {
     display: flex;
     align-items: center;
 }
+
 .story .introduce .story-title {
     color: var(--color-text-secondary);
     font-size: var(--font-size-text-xl);
@@ -20,6 +22,7 @@
     width: 420px;
     display: block;
 }
+    
 .story .story-content {
     position: absolute;
     left: 70px;
