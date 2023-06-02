@@ -25,6 +25,8 @@
     --background-primary: var(--primary-color);
     --background-secondary: var(--secondary-color);
     --background-tertiary: #f3f7ff;
+    --background-quaternary: #fbfbfb;
+    --background-quinary: #1968fc0d;
 
     /* Heading font sizes*/
     --font-size-heading-lg: 40px;
