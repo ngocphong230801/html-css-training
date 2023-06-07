@@ -1,0 +1,8 @@
+.container {
+    width: 1110px;
+    height: max-content;
+    margin: auto;
+    padding: 30px 160px;
+    font-family: var(--font-primary);
+    background-color: var(--background-default);
+}

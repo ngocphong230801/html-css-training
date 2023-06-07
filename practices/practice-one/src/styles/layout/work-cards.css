@@ -1,0 +1,92 @@
+.heading-title {
+    margin-top: 72px;
+    margin-bottom: 50px;
+}
+
+.work-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.work-cards .card {
+    width: 318px;
+    height: 220px;
+    background-color: var(--secondary-color);
+    position: relative;
+}
+
+.work-cards .card:nth-child(2) {
+    margin-top: 40px;
+}
+
+.work-cards .card:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 73.7px;
+    border: 1px dashed var(--primary-color);
+}
+
+.work-cards .card:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 73.7px;
+    border: 1px dashed var(--primary-color);
+}
+
+.work-cards .card:nth-child(3) {
+    margin-top: 80px;
+}
+
+.work-cards .card .card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card-top .step {
+    color: var(--color-text-primary);
+    font-size: var(--font-size-text-base);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-bold);
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.card .card-top .card-icon {
+    position: absolute;
+    left: 239px;
+    top: 42px;
+}
+
+.card .card-top .title {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    font-size: var(--font-size-text-lg);
+    margin-top: 5px;
+}
+
+.card .card-bottom .content {
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    font-size: var(--font-size-text-md);
+    line-height: var(--line-height-sm);
+    font-weight: var(--font-weight-base);
+    width: 238.97px;
+    margin: 0;
+}
+
+.card .card-bottom .card-decoration {
+    position: absolute;
+    top: 200px;
+    left: 298px ;
+}
