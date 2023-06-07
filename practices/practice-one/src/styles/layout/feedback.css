@@ -1,0 +1,64 @@
+.section-feedback {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 208px;
+}
+
+.feedback-card {
+    width: 540px;
+    height: 280px;
+    background-color: var(--secondary-color);       
+}
+
+.feedback-card .feedback-card-user {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.feedback-card .feedback-card-user .user-img {
+    position: absolute;
+    left: 40px;
+    top: 40px;    
+}
+
+.feedback-card .feedback-card-user .profile-name {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    font-size: var(--font-size-heading-sm);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-sm);
+}
+
+.feedback-card .feedback-card-user .profile-title {
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    font-size: var(--font-size-text-sm);
+    line-height: var(--line-height-sm);
+    color: var(--color-heading-title);
+    font-weight: var(--font-weight-semibold);
+    margin: 0;
+}
+
+.feedback-card .feedback-card-user .card-icon {
+    position: absolute;
+    top: 40px;
+    left: 440px;
+}
+
+.feedback-card .feedback-card-content {
+    position: relative;
+}
+
+.feedback-card .feedback-card-content .feedback {
+    position: absolute;
+    width: 460px;
+    top: 180px;
+    left: 40px;
+    line-height: var(--line-height-sm);
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-text-md);
+}

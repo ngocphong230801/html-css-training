@@ -1,0 +1,38 @@
+.use-case {
+    margin-top: 38px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 358.14px 358.14px 358.14px;
+    column-gap: 19.9px;
+    row-gap: 19px;
+}
+
+.use-case .use-case-card {
+    background-color: var(--secondary-color);
+    height: 160px;
+    width: 358.14px;
+    position: relative;
+}
+
+.use-case .use-case-card .use-case-card-title {
+    position: absolute;
+    left: 19.9px;
+    color: var( --color-heading-title);
+    top: 20px;
+    margin: 0;
+    font-size: var(--font-size-text-xl);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-md);
+    text-transform: uppercase;
+}
+
+.use-case .use-case-card .use-case-card-content {
+    position: absolute;
+    top: 80px;
+    left: 19.9px;
+    right: 19.9px;
+    line-height: var(--line-height-sm);
+    font-size: var(--font-size-text-md);
+    font-weight: var(--font-weight-light);
+    margin: 0;
+}
