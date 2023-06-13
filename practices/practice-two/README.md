@@ -1,14 +1,16 @@
 # HTML-CSS-PRACTICE_TWO #
 
 ## Target: ##
-- Improve more ability picking HTML tags and styling solutions.
-- More practice with CSS selectors.
-- Learn how to make a responsive website.
-- Learn how to make a website that can cross-browser.
+- Still use/apply knowledge about HTML/CSS
+- Apply responsive for design from PR1
+- Use mobile first
+- Work fine on modern browsers (MS edge, Firefox, Chrome, Safari)
+- Common breakpoints
+- SEO testing (some meta tag, favicon, etc)
 ## Design on figma: ##
 [Figma] (https://www.figma.com/file/gGI7uwzRbVEZghXog1n5aY/website---design-for-web-design?type=design&node-id=0-2&t=m5urIUyDwUI61mht-0)
 ## Information: ##
-- Time line: 6 days (From Wednesday, Jun 14,2023 to Wednesday, Jun 21, 2023 )
+- Time line: 5 days (From Wednesday, Jun 14,2023 to Wednesday, Jun 21, 2023 )
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
 ## Folder structure ##
