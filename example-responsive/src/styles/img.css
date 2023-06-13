@@ -1,0 +1,89 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+  
+ /* Common styles for both mobile and desktop */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    margin: 0;
+}
+  
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+  
+.nav-item {
+    margin-left: 20px;
+}
+  
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.main-content {
+    padding: 20px;
+}
+  
+.section-title {
+    margin-bottom: 10px;
+}
+  
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+  /* Styles for mobile */
+@media (max-width: 767px) {
+    .nav-list {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .responsive-image {
+      width: 100%;
+      height: auto;
+    }
+}
+  
+  /* Styles for desktop */
+@media (min-width: 768px) {
+    .main-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  
+    .hero-section {
+      grid-column: 1 / span 2;
+    }
+  
+    .image-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .responsive-image {
+      max-width: 100%;
+      max-height: 400px;
+    }
+}
+  
