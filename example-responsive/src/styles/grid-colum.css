@@ -1,0 +1,48 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+  
+.col-12 {
+    width: 100%;
+    padding: 0 10px;
+}
+  
+.col-6 {
+    width: 50%;
+    padding: 0 10px;
+}
+  
+.col-4 {
+    width: 33.33%;
+    padding: 0 10px;
+}
+  
+.col-12 {
+    background-color: lightblue;
+}
+  
+.col-6 {
+    background-color: lightgreen;
+}
+  
+.col-4 {
+    background-color: lightpink;
+}
+  
+@media (min-width: 768px) {
+    .col-md-6 {
+      width: 50%;
+    }
+    
+    .col-md-4 {
+      width: 33.33%;
+    }
+}

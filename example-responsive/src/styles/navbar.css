@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+}
+
+/* Mobile  */
+.nav-btn {
+    display: none;
+}
+.menubar-icon {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.nav-mobile {
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    transform: translateX(-100%);
+}
+
+.nav-mobile-list {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.nav-mobile-link {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 8px 0;
+}
+
+.nav-mobile .close {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+    top: 15px
+}
+
+.nav-icon {
+    width: 30px;
+    height: 1px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin: 23px 10px;
+    display: none;
+}
+
+.nav-input {
+    display: none;
+}
+
+@media (max-width : 1023px){
+    .nav-btn {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .nav-pc {
+        display: none;
+    }
+
+    .nav-input:checked ~ .nav-mobile {
+        transform: translateX(0);
+    }
+
+    .nav-input:checked ~ .nav-icon {
+        display: block;
+    }
+    
+    .nav-input:checked ~ .nav-btn {
+        display: none;
+    }
+}
