@@ -62,9 +62,9 @@ git clone https://github.com/ngocphong230801/html-css-training
 ~~~
 cd HTML-CSS-Training
 ~~~
-- Step 03: Next open folder practice-one
+- Step 03: Next open folder practice-two
 ~~~
-cd practice-one
+cd practice-two
 ~~~
 - Step 04: Open terminal and type:
 ~~~
