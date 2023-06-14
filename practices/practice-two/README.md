@@ -2,7 +2,7 @@
 
 ## Target: ##
 - Still use/apply knowledge about HTML/CSS
-- Apply responsive for design from PR1
+- Apply responsive for design from Practice one
 - Use mobile first
 - Work fine on modern browsers (MS edge, Firefox, Chrome, Safari)
 - Common breakpoints
