@@ -1,0 +1,26 @@
+.heading {
+    color: var(--color-heading);
+    font-size: var(--font-size-3x);
+    line-height: var(--line-height-lg);
+    display: inline block;
+
+}
+
+.heading-title {
+    color: var(--color-heading);
+    line-height: var(--line-height-lg);
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-heading-md);
+    position: relative;
+    text-transform: uppercase;
+}
+
+.heading-title::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid var(--primary-color);
+    width: 80px;
+    margin-top: 10px;
+    position: absolute;
+    left: -40px;
+}
