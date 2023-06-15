@@ -1,29 +1,29 @@
-.btn-default {
+.btn {
     font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
     line-height: var(--line-height-base);
-    border: 1px solid var(--border-color-primary);
-    text-shadow: 0px 10px 40px rgba(25, 104, 252, 0);
+}
+
+.btn-default {
     color: var(--color-text-btn-secondary);
     background-color: var(--background-primary);
-    font-weight: var(--font-weight-bold);
+    border: 1px solid var(--primary-color);
+    text-shadow: 0px 10px 40px rgba(25, 104, 252, 0);
     padding: 15px 22px;
 }
 
 .btn-primary {
-    font-size: var(--font-size-sm);
-    line-height: var(--line-height-base);
-    border: 1px solid var(--color-primary);
-    text-shadow: 0px 10px 40px;
+    border: 1px solid var(--primary-color);
     color: var(--color-text-btn-secondary);
     background-color: var(--background-primary);
     padding: 14px 55px;
+    text-shadow: 0px 10px 40px;
 }
 
 .btn-secondary {
-    border: 1px solid var(--color-secondary);
-    text-shadow: 4px 4px 20px;
     color: var(--color-text-btn-primary);
+    border: 1px solid var(--secondary-color);
     background-color: var(--background-secondary);
-    font-weight: var(--font-weight-semibold);
     padding: 14px 64px;
+    text-shadow: 4px 4px 20px;
 }

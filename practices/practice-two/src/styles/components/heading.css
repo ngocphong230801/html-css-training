@@ -15,9 +15,9 @@
 }
 
 .heading-title::after {
+    border-bottom: 2px solid var(--primary-color);
     content: "";
     display: block;
-    border-bottom: 2px solid var(--primary-color);
     width: 80px;
     margin-top: 10px;
     position: absolute;
