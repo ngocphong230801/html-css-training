@@ -6,8 +6,8 @@
 
 .btn-default {
     color: var(--color-text-btn-secondary);
-    background-color: var(--background-primary);
     border: 1px solid var(--primary-color);
+    background-color: var(--background-primary);
     text-shadow: 0px 10px 40px rgba(25, 104, 252, 0);
     padding: 15px 22px;
 }
