@@ -29,6 +29,14 @@
     margin-top: 34px;
 }
 
+.banner-content .btn-primary .content-mobile {
+    display: block;
+}
+
+.banner-content .btn-primary .content-desktop {
+    display: none;
+}
+
 .banner .banner-img {
     margin-top: 86px;
     margin-left: -40px;
@@ -78,5 +86,13 @@
         position: absolute;
         right: 160px;
         top: 30px;
+    }
+
+    .banner-content .btn-primary .content-mobile {
+        display: none;
+    }
+
+    .banner-content .btn-primary .content-desktop {
+        display: block;
     }
 }
