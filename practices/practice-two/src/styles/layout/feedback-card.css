@@ -1,0 +1,85 @@
+.feedback {
+  margin-top: 50px;
+}
+
+.feedback .container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.card-user {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card-user .user-img {
+  margin-top: 40px;
+  margin-left: 38px;
+  width: 100px;
+  height: 100px;
+}
+
+.card-user .profile-name {
+  display: block;
+  margin-top: 55px;
+  margin-right: 183px;
+  font-size: var(--font-size-heading-sm);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-sm);
+}
+
+.card-user .profile-title {
+  font-size: var(--font-size-text-sm);
+  line-height: var(--line-height-sm);
+  color: var(--color-heading-title);
+  font-weight: var(--font-weight-semibold);
+  display: block;
+  margin-top: -20px;
+}
+
+.card-user .card-icon {
+  width: 57.44px;
+  height: 46px;
+  margin-top: 40px;
+  margin-right: 38.3px;
+}
+
+.card-content .feedback-content {
+  line-height: var(--line-height-sm);
+  font-weight: var(--font-weight-base);
+  font-size: var(--font-size-text-md);
+  width: 440px;
+  margin: 0 38.3px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feedback {
+    margin-top: 208px;
+  }
+  .feedback .container {
+    max-width: 1440px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .card {
+    width: 540px;
+  }
+}
