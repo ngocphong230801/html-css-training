@@ -19,7 +19,7 @@
     font-size: var(--font-size-text-xl);
     font-weight: var(--font-weight-base);
     position: absolute;
-    display:inline;
+    display: inline;
     padding: 0 8px;
     left: 55px;
     top: 45px;
@@ -56,11 +56,11 @@
     display: none;
 }
 
-.nav-input:checked ~ .icon-close {
+.nav-input:checked~.icon-close {
     display: block;
 }
 
-.nav-input:checked ~ .icon-open {
+.nav-input:checked~.icon-open {
     display: none;
 }
 
@@ -96,7 +96,8 @@
         position: absolute;
         right: 0;
     }
-    .navbar .menu  {
+
+    .navbar .menu {
         margin-right: 200px;
     }
 }

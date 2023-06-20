@@ -1,7 +1,7 @@
 .support {
     margin-top: 60px;
     background-color: var(--primary-color);
-    font-family: var( --font-primary);
+    font-family: var(--font-primary);
 }
 
 .support .img-background {
@@ -39,7 +39,7 @@
 
 .support .btn-secondary {
     text-transform: uppercase;
-    margin-left:  60px;
+    margin-left: 60px;
     margin-top: 10px;
     margin-bottom: 62px;
 }
@@ -56,7 +56,7 @@
         padding-top: 80px;
         padding-left: 160px;
     }
-    
+
     .support .support-heading::after {
         margin-left: -40px;
     }
@@ -65,7 +65,7 @@
         margin-left: 160px;
     }
 
-    .support .recoment{
+    .support .recoment {
         padding-left: 160px;
         padding-right: 80px;
     }

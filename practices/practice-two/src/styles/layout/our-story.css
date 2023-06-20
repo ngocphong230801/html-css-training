@@ -31,9 +31,10 @@
 
 @media screen and (min-width: 1200px) {
     .our-story {
-       grid-template-columns: 50% 50%;
-       column-gap: 138px;
+        grid-template-columns: 50% 50%;
+        column-gap: 138px;
     }
+
     .story-content {
         padding-right: 106px;
     }

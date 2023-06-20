@@ -81,6 +81,7 @@
     .work-card {
         margin: auto;
     }
+
     .card-bottom .content {
         width: 440px;
     }
@@ -90,7 +91,7 @@
     .work-cards {
         flex-direction: row;
         justify-content: space-between;
-        gap: 5px;
+        gap: 10px;
     }
 
     .work-card {
@@ -99,7 +100,7 @@
         display: block;
         margin: 0;
     }
-    
+
     .work-card:nth-child(2) {
         margin-top: 40px;
     }
@@ -111,7 +112,7 @@
 
     .card-bottom .content {
         width: 239px;
-    }    
+    }
 
     .work-card:nth-child(1)::after {
         height: 0;
@@ -130,4 +131,4 @@
     .card-bottom .card-decoration {
         top: 92px;
     }
-}   
+}

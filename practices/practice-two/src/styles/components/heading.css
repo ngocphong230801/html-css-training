@@ -23,13 +23,13 @@
     margin-top: 10px;
 }
 
-@media screen  and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .heading-title::after {
         margin-left: -20px;
     }
 }
 
-@media screen  and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .heading-title::after {
         margin-left: -40px;
     }
