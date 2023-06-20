@@ -1,37 +1,30 @@
 .feedback {
-  margin-top: 50px;
+  margin-top: 50px; 
 }
 
 .feedback .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 50px;
 }
 
 .card {
   background-color: var(--secondary-color);
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  display: grid;
 }
 
 .card-user {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 .card-user .user-img {
-  margin-top: 40px;
-  margin-left: 38px;
-  width: 100px;
-  height: 100px;
+  padding: 40px;
 }
 
 .card-user .profile-name {
   display: block;
-  margin-top: 55px;
-  margin-right: 183px;
+  padding-top: 50px;
+  margin-left: -20px;
   font-size: var(--font-size-heading-sm);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-sm);
@@ -43,43 +36,40 @@
   color: var(--color-heading-title);
   font-weight: var(--font-weight-semibold);
   display: block;
-  margin-top: -20px;
+  margin-left: -20px;
+  margin-top: -10px;
 }
 
 .card-user .card-icon {
-  width: 57.44px;
-  height: 46px;
-  margin-top: 40px;
-  margin-right: 38.3px;
+   padding-top: 40px;
+   padding-left: 60px;
 }
 
 .card-content .feedback-content {
   line-height: var(--line-height-sm);
   font-weight: var(--font-weight-base);
   font-size: var(--font-size-text-md);
-  width: 440px;
-  margin: 0 38.3px;
-  margin-bottom: 40px;
+  padding: 0 40px;
 }
 
 @media screen and (min-width: 768px) {
   .card {
+    width: 540px;
     margin: auto;
+  }
+  
+  .feedback-content {
+    height: 60px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .feedback {
-    margin-top: 208px;
+  .card{
+    width: 100%;
   }
+  
   .feedback .container {
-    max-width: 1440px;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 40px;
-  }
-
-  .card {
-    width: 540px;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
   }
 }

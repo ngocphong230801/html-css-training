@@ -59,21 +59,22 @@
     font-size: var(--font-size-text-md);
     font-weight: var(--font-weight-base);
     line-height: var(--line-height-sm); 
-    width: 440px;
     display: block;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 .feature-card .feature-card-body .card-decoration {
     position: absolute;
     right: -7px;
-    top: 72px;
+    bottom: -10px;
 }
 
 @media screen and (min-width: 768px) {
-    .feature-card {
+    /* .feature-card {
         margin: auto;
     }
+     */
 }
 
 @media screen and (min-width: 1200px)  {

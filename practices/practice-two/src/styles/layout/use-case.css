@@ -4,7 +4,7 @@
 
 .use-case {
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 50% 50%;
     column-gap: 20px;
     row-gap: 20px;
 }
@@ -39,10 +39,9 @@
 
 @media screen and (min-width: 768px) {
     .use-case {
-        margin: auto;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 5px;
-        row-gap: 5px;
+        column-gap: 10px;
+        row-gap: 10px;
     }
 }
 
@@ -70,6 +69,6 @@
     }
 
     .use-case .use-case-card .use-case-card-content {
-        width: 318px;
+        margin-right: 20px;
     }
 }
