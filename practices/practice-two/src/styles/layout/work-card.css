@@ -6,6 +6,7 @@
 
 .work-card {
     background-color: var(--secondary-color);
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     position: relative;
     /* margin-top: -50px; */
 }

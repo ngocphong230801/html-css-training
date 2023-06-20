@@ -9,6 +9,7 @@
     flex-direction: column;
     gap: 30px;
     background-color: var(--secondary-color);
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
     position: relative;
 }
 
@@ -74,7 +75,7 @@
 @media screen and (min-width: 1200px)  {
     .features-cards {
         flex-direction: row;
-        gap: 20px;
+        gap: 5px;
         justify-content: space-between;
     }
     

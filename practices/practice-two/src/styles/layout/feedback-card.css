@@ -9,6 +9,7 @@
 
 .card {
   background-color: var(--secondary-color);
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   display: grid;
 }
 
@@ -64,6 +65,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .feedback{
+    margin-top: 0;
+  }
   .card {
     width: 100%;
   }
