@@ -1,0 +1,80 @@
+.feedback {
+    margin-top: 50px;
+}
+
+.feedback .container {
+    display: grid;
+    gap: 50px;
+}
+
+.feedback .card {
+    background-color: var(--secondary-color);
+    box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+    display: grid;
+}
+
+.feedback .card-user {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feedback .card-user .user-img {
+    padding: 40px;
+}
+
+.feedback .card-user .profile-name {
+    display: block;
+    padding-top: 50px;
+    margin-left: -20px;
+    font-size: var(--font-size-heading-sm);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-sm);
+}
+
+.feedback .card-user .profile-title {
+    font-size: var(--font-size-text-sm);
+    line-height: var(--line-height-sm);
+    color: var(--color-heading-title);
+    font-weight: var(--font-weight-semibold);
+    display: block;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+
+.feedback .card-user .card-icon {
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.feedback .card-content .feedback-content {
+    line-height: var(--line-height-sm);
+    font-weight: var(--font-weight-base);
+    font-size: var(--font-size-text-md);
+    padding: 0 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .feedback .card {
+        width: 540px;
+        margin: auto;
+    }
+
+    .feedback .feedback-content {
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .feedback {
+        margin-top: 0;
+    }
+
+    .feedback .card {
+        width: 100%;
+    }
+
+    .feedback .container {
+        grid-template-columns: 50% 50%;
+        column-gap: 20px;
+    }
+}
