@@ -52,15 +52,15 @@
     display: none;
 }
 
-.main-header .nav-input {
+.main-header .control-input {
     display: none;
 }
 
-.main-header .nav-input:checked~.navbar-toggler-close {
+.main-header .control-input:checked~.navbar-toggler-close {
     display: block;
 }
 
-.main-header .nav-input:checked~.navbar-toggler-open {
+.main-header .control-input:checked~.navbar-toggler-open {
     display: none;
 }
 
