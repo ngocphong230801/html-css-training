@@ -1,0 +1,98 @@
+.main-header .navbar {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main-header .navbar .menu {
+    display: none;
+}
+
+.main-header .navbar .btn-default {
+    display: none;
+}
+
+.main-header .navbar .title-logo {
+    color: var(--primary-color);
+    line-height: var(--line-height-sm);
+    font-size: var(--font-size-text-xl);
+    font-weight: var(--font-weight-base);
+    position: absolute;
+    display: inline;
+    padding: 0 8px;
+    left: 55px;
+    top: 45px;
+    margin: 0;
+}
+
+.main-header .navbar-toggler-open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.main-header .navbar-toggler-open .line {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin-top: 3px;
+}
+
+.main-header .navbar-toggler-close {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 0px;
+    top: 55px;
+    display: none;
+}
+
+.main-header .nav-input {
+    display: none;
+}
+
+.main-header .nav-input:checked~.navbar-toggler-close {
+    display: block;
+}
+
+.main-header .nav-input:checked~.navbar-toggler-open {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .main-header .navbar-toggler-open {
+        display: none;
+    }
+
+    .main-header .navbar .menu {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        margin-right: 200px;
+    }
+
+    .main-header .menu .menu-content {
+        display: block;
+        color: var(--color-text-default);
+        font-size: var(--font-size-text-sm);
+        font-weight: var(--font-weight-light);
+        line-height: var(--line-height-base);
+        padding: 1px 15px;
+    }
+
+    .main-header .menu-item:nth-child(1) .menu-content {
+        color: var(--primary-color);
+    }
+
+    .main-header .navbar .btn-default {
+        display: block;
+        text-transform: uppercase;
+        position: absolute;
+        right: 0;
+    }
+}
