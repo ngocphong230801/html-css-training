@@ -63,10 +63,10 @@
         display: grid;
         grid-template-columns: 50% 50%;
     }
+
     .banner .introduce {
         display: none;
     }
-
 
     .banner .banner-img {
         margin: 0;
