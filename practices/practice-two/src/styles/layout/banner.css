@@ -26,11 +26,11 @@
     margin-top: 34px;
 }
 
-.banner-content .btn-primary .content-mobile {
+.banner .mobile-show {
     display: block;
 }
 
-.banner-content .btn-primary .content-desktop {
+.banner .desktop-none {
     display: none;
 }
 
@@ -83,11 +83,11 @@
         margin-left: -37px;
     }
 
-    .banner-content .btn-primary .content-mobile {
+    .banner .mobile-none {
         display: none;
     }
 
-    .banner-content .btn-primary .content-desktop {
+    .banner .desktop-show {
         display: block;
     }
 }
