@@ -35,7 +35,7 @@
     padding-top: 10px;
 }
 
-.line {
+.navbar-toggler-open .line {
     width: 25px;
     height: 3px;
     background-color: var(--primary-color);
