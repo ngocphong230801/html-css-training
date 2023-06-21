@@ -31,13 +31,11 @@
     border: 1px dashed var(--primary-color);
 }
 
-
 .features-cards .feature-card-header {
     display: flex;
     background-color: var(--background-tertiary);
     position: relative;
 }
-
 
 .features-cards .feature-card-header-icon {
     width: 80px;
@@ -70,7 +68,6 @@
     right: -7px;
     bottom: -10px;
 }
-
 
 @media screen and (min-width: 1200px) {
     .features-cards {
