@@ -50,7 +50,7 @@
     text-align: center;
 }
 
-.introduce-title {
+.banner .introduce-title {
     color: var(--secondary-color);
     text-transform: uppercase;
     padding-top: 30px;
