@@ -1,11 +1,11 @@
-.navbar {
+.main-header .navbar {
     padding-top: 35px;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.navbar .menu {
+.main-header .navbar .menu {
     display: none;
 }
 
@@ -69,7 +69,7 @@
         display: none;
     }
 
-    .navbar .menu {
+    .main-header .navbar .menu {
         display: flex;
         list-style: none;
         align-items: center;
