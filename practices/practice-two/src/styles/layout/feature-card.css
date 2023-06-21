@@ -59,8 +59,7 @@
     font-weight: var(--font-weight-base);
     line-height: var(--line-height-sm);
     display: block;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 0 40px;
 }
 
 .features-cards .card-decoration {
