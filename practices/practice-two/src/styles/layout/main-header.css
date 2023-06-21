@@ -1,32 +1,32 @@
-.navbar {
+.main-header .navbar {
     padding-top: 35px;
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.navbar .menu {
+.main-header .navbar .menu {
     display: none;
 }
 
-.navbar .btn-default {
+.main-header .navbar .btn-default {
     display: none;
 }
 
-.navbar .title-logo {
+.main-header .navbar .title-logo {
     color: var(--primary-color);
     line-height: var(--line-height-sm);
     font-size: var(--font-size-text-xl);
     font-weight: var(--font-weight-base);
     position: absolute;
-    display:inline;
+    display: inline;
     padding: 0 8px;
     left: 55px;
     top: 45px;
     margin: 0;
 }
 
-.icon-open {
+.main-header .navbar-toggler-open {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,14 +35,14 @@
     padding-top: 10px;
 }
 
-.line {
+.main-header .navbar-toggler-open .line {
     width: 25px;
     height: 3px;
     background-color: var(--primary-color);
     margin-top: 3px;
 }
 
-.icon-close {
+.main-header .navbar-toggler-close {
     width: 25px;
     height: 3px;
     background-color: var(--primary-color);
@@ -52,30 +52,31 @@
     display: none;
 }
 
-.nav-input {
+.main-header .nav-input {
     display: none;
 }
 
-.nav-input:checked ~ .icon-close {
+.main-header .nav-input:checked~.navbar-toggler-close {
     display: block;
 }
 
-.nav-input:checked ~ .icon-open {
+.main-header .nav-input:checked~.navbar-toggler-open {
     display: none;
 }
 
-@media screen and (min-width: 768px) {
-    .icon-open {
+@media screen and (min-width: 1200px) {
+    .main-header .navbar-toggler-open {
         display: none;
     }
 
-    .navbar .menu {
+    .main-header .navbar .menu {
         display: flex;
         list-style: none;
         align-items: center;
+        margin-right: 200px;
     }
 
-    .navbar .menu .menu-content {
+    .main-header .menu .menu-content {
         display: block;
         color: var(--color-text-default);
         font-size: var(--font-size-text-sm);
@@ -84,19 +85,14 @@
         padding: 1px 15px;
     }
 
-    .menu .menu-item:nth-child(1) .menu-content {
+    .main-header .menu-item:nth-child(1) .menu-content {
         color: var(--primary-color);
     }
-}
 
-@media screen and (min-width: 1200px) {
-    .navbar .btn-default {
+    .main-header .navbar .btn-default {
         display: block;
         text-transform: uppercase;
         position: absolute;
         right: 0;
-    }
-    .navbar .menu  {
-        margin-right: 200px;
     }
 }
