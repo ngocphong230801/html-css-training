@@ -4,6 +4,10 @@
     font-family: var(--font-primary);
 }
 
+.support .img-background {
+    display: none;
+}
+
 .support .support-heading {
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-lg);
@@ -36,7 +40,6 @@
 .support .btn-secondary {
     text-transform: uppercase;
     margin-left: 60px;
-    margin-top: 10px;
     margin-bottom: 62px;
 }
 
@@ -51,7 +54,7 @@
     .support {
         margin-top: 120px;
         display: flex;
-        height: 450px;
+        height: 480px;
         gap: 40px;
     }
 
@@ -67,6 +70,7 @@
 
     .support .btn-secondary {
         margin-left: 160px;
+        margin-top: 0;
     }
 
     .support .recoment {
@@ -75,6 +79,7 @@
     }
 
     .support .img-background {
+        display: block;
         margin-top: 20px;
         width: 599px;
         height: 546px;
