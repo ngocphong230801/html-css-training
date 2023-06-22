@@ -38,13 +38,13 @@
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
     .use-case {
         margin: 0;
         column-gap: 19.9px;
         row-gap: 19px;
     }
-    
+
     .use-case .use-case-card .use-case-card-content {
         margin-right: 20px;
     }
