@@ -50,7 +50,7 @@
     line-height: var(--line-height-sm);
     font-weight: var(--font-weight-base);
     font-size: var(--font-size-text-md);
-    padding: 0 40px;
+    padding: 10px 40px;
 }
 
 @media screen and (min-width: 768px) {
