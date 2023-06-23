@@ -1,5 +1,12 @@
 # HTML-CSS-PRACTICE_TWO #
 
+## Overview
+- Design page an introductory site Vangoux.
+
+## Author
+- Phong Nguyen
+- Email: nnphong962015@gmail.com
+
 ## Target: ##
 - Still use/apply knowledge about HTML/CSS
 - Apply responsive for design from Practice one
@@ -13,6 +20,11 @@
 - Time line: 5 days (From Wednesday, Jun 14,2023 to Wednesday, Jun 21, 2023 )
 - Editor: Visual Studio Code
 - Supported browser: Chrome lasted
+
+## Development Environment
+- Node:"v18.12.1"
+- NPM :"v8.19.2"
+
 ## Folder structure ##
 practice-two
 ~~~
@@ -33,6 +45,8 @@ practice-two
             |-- index.css
             |-- button.css
             |-- container.css
+            |-- display-screens.css
+            |-- heading.css
         |-- sections
             |-- index.
             |-- banner.css
@@ -62,15 +76,19 @@ git clone https://github.com/ngocphong230801/html-css-training
 ~~~
 cd HTML-CSS-Training
 ~~~
-- Step 03: Next open folder practice-two
+- Step 03: Next open folder practices
+~~~
+cd practices
+~~~
+- Step 04: Next open folder practice-two
 ~~~
 cd practice-two
 ~~~
-- Step 04: Open terminal and type:
+- Step 05: Open terminal and type:
 ~~~
 npm install
 ~~~
-- Step 05: Finally run with:
+- Step 06: Finally run with:
 ~~~
 npm start
 ~~~
