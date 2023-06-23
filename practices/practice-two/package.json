@@ -1,12 +1,17 @@
 {
   "name": "practice-two",
   "version": "1.0.0",
-  "description": "practice two",
+  "description": "Html/css practice two",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html"
   },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/ngocphong230801/html-css-training"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Phong Nguyen",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.9.2"
