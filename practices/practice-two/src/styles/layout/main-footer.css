@@ -58,6 +58,10 @@
     font-weight: var(--font-weight-light);
 }
 
+.main-footer .menu-footer-item:hover .menu-footer-content {
+    color: var(--primary-color);
+}
+
 @media screen and (min-width: 768px) {
     .main-footer .list-menu-footer {
         justify-content: space-between;
