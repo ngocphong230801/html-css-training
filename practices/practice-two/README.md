@@ -22,23 +22,19 @@ practice-two
             |-- ...
         |-- images
             |-- ...
-        |-- fonts
-            |-- ...
     |-- styles
         |-- abtracts
-            |-- all.css
+            |-- index.css
             |-- variables.css
         |-- bases
-            |-- all.css
+            |-- index.css
             |-- reset.css
         |-- components
-            |-- all.css
+            |-- index.css
             |-- button.css
             |-- container.css
-        |-- layouts
-            |-- all.css
-            |-- footer.css
-            |-- header.css
+        |-- sections
+            |-- index.
             |-- banner.css
             |-- feedback.css
             |-- feature-card.css
@@ -46,7 +42,11 @@ practice-two
             |-- support.css
             |-- use-case.css
             |-- work-card.css
-        |-- style.css
+        |-- layouts
+            |-- index.css
+            |-- header.css
+            |-- footer.css
+        |-- index.css
     |-- index.html
 |-- .gitignore
 |-- package.json
