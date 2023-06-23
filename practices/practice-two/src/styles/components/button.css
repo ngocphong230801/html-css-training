@@ -27,3 +27,13 @@
     padding: 14px 64px;
     text-shadow: 4px 4px 20px;
 }
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}

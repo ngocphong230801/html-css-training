@@ -22,3 +22,9 @@
     width: 80px;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 1200px) {
+    .heading-title::after{
+        margin-left: -40px;
+    }
+}

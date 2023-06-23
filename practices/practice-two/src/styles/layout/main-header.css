@@ -85,7 +85,7 @@
         padding: 1px 15px;
     }
 
-    .main-header .menu-item:nth-child(1) .menu-content {
+    .main-header .menu-item:hover .menu-content {
         color: var(--primary-color);
     }
 
