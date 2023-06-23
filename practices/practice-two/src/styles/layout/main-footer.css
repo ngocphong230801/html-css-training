@@ -1,0 +1,105 @@
+.main-footer {
+    margin-top: 61px;
+    background-color: var(--background-quaternary);
+    position: relative;
+}
+
+.main-footer .brand {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.main-footer .brand-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main-footer .brand-title {
+    font-size: var(--font-size-text-sm);
+    color: var(--primary-color);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-light);
+    display: block;
+    background-color: var(--background-quinary);
+    padding: 15px 15px;
+}
+
+.main-footer .assets-footer .icon-fb {
+    position: absolute;
+    right: 110px;
+    top: 55px;
+}
+
+.main-footer .assets-footer .icon-instagram {
+    position: absolute;
+    top: 55px;
+    right: 73px;
+}
+
+.main-footer .assets-footer .logo-vincent {
+    position: absolute;
+    width: 55px;
+    height: 60px;
+    bottom: 0;
+    right: 40px;
+}
+
+.main-footer .list-menu-footer {
+    list-style: none;
+    display: flex;
+    padding: 40px;
+    padding-left: 0;
+}
+
+.main-footer .list-menu-footer .menu-footer-content {
+    padding: 25px 17px;
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-light);
+}
+
+@media screen and (min-width: 768px) {
+    .main-footer .list-menu-footer {
+        justify-content: space-between;
+        padding: 40px auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-footer .container {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .main-footer .list-menu-footer {
+        padding: 50px 20px;
+    }
+
+    .main-footer .list-menu-footer .menu-footer-content {
+        padding: 25px 24px;
+    }
+
+    .main-footer .brand {
+        padding-bottom: 30px;
+    }
+
+    .main-footer .assets-footer .icon-fb {
+        position: static;
+    }
+
+    .main-footer .assets-footer .icon-instagram {
+        position: static;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .main-footer .assets-footer .logo-vincent {
+        width: 90px;
+        height: 100px;
+        left: 87%;
+        right: 11.11%;
+        top: 32%;
+        bottom: 0%;
+    }
+}
