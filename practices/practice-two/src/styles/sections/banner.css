@@ -30,8 +30,8 @@
 }
 
 .banner .banner-img {
+    width: 100%;
     margin-top: 86px;
-    margin-left: -40px;
     z-index: -1;
 }
 
@@ -71,6 +71,6 @@
     .banner .banner-img {
         margin: 0;
         margin-top: 25px;
-        margin-left: -37px;
+        /* margin-left: -37px; */
     }
 }
