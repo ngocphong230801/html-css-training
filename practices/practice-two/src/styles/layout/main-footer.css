@@ -58,8 +58,16 @@
     font-weight: var(--font-weight-light);
 }
 
+@keyframes slideIn {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+}
+
 .main-footer .menu-footer-item:hover .menu-footer-content {
     color: var(--primary-color);
+    animation: slideIn 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: calc(var(--index) * 0.1s);
 }
 
 @media screen and (min-width: 768px) {

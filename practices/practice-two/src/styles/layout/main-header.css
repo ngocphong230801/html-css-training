@@ -69,6 +69,10 @@
         display: none;
     }
 
+    .main-header .navbar-toggler-close {
+        display: none;
+    }
+
     .main-header .navbar .menu {
         display: flex;
         list-style: none;
@@ -85,8 +89,15 @@
         padding: 1px 15px;
     }
 
+    @keyframes slideDown {
+        0% {transform: translateY(-50%); }
+        100% {transform: translateY(0); }
+    }
+
     .main-header .menu-item:hover .menu-content {
         color: var(--primary-color);
+        animation-fill-mode: forwards;
+        animation: slideDown 0.5s;
     }
 
     .main-header .navbar .btn-default {
